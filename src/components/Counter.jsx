@@ -1,4 +1,5 @@
 import { useState } from "react";
+//import App from "../App"
 
 const Counter = () => {
   const [count, setCount] = useState(0);
@@ -8,6 +9,7 @@ const Counter = () => {
 
   return (
     <div className="counter-container">
+     
       <p className="counter-value">{count}</p>
       <button className="counter-button" onClick={decrement}>-</button>
       <button className="counter-button" onClick={increment}>+</button>
